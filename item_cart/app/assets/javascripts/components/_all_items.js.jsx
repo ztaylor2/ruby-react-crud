@@ -1,7 +1,13 @@
 var AllItems = React.createClass({
-  componentDidMount() {
-    console.log("Component mounted");
+
+  getInitialState() {
+    return { items: [] }
   },
+
+  componentDidMount() {
+    $.getJSON('/api/v1/items.json', (response) => { this.setState({ items: response }) });
+  },
+
 
   render() {
     return (
