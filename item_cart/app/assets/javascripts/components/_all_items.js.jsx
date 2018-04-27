@@ -11,14 +11,14 @@ var AllItems = React.createClass({
   render() {
     var items = this.state.items.map((item) => {
       return (
-        <div>
+        <div key={item.id}>
           <h3>{item.name}</h3>
           <p>{item.description}</p>
         </div>
       
     });
 
-    return(
+    return (
       <div>
         {items}
       </div>
