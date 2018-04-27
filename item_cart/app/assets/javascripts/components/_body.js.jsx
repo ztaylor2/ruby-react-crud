@@ -3,7 +3,7 @@ var Body = React.createClass({
         return (
             <div>
                 <NewItem />
-                <AllItems />
+                // <AllItems />
             </div>
         );
     }
