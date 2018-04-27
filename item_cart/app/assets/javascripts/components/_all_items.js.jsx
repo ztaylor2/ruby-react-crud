@@ -1,4 +1,4 @@
-// var AllItems = React.createClass({
+// window.AllItems = createReactClass({
 
 //   getInitialState() {
 //     return { items: [] }
@@ -24,4 +24,4 @@
 //       </div>
 //     )
 //   }
-// });
+// })

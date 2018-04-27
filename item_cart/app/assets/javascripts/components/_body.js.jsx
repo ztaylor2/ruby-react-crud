@@ -1,10 +1,9 @@
-// var Body = React.createClass({
-//     render() {
-//         return (
-//             <div>
-//                 <NewItem />
-//                 // <AllItems />
-//             </div>
-//         );
-//     }
-// });
+window.Body = createReactClass({
+    render() {
+        return (
+            <div>
+                <NewItem />
+            </div>
+        );
+    }
+})
